@@ -1,0 +1,161 @@
+*{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+   
+  .fw-hb {
+    font-size: 8rem;
+    line-height: 1px;
+  }
+  
+  
+  .header-bg  {
+      background: url(images/header-img.jpg);
+      height: auto;
+      background-size: cover;
+  }
+  
+  .btn-bg-dark-blue {
+    background-color: rgb(38, 123, 172);
+  }
+  
+  .btn-bg-dark-blue:hover {
+    background-color: rgb(22, 68, 95);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .text-dark-blue {
+    color: rgb(21, 66, 92);
+  }
+  
+  .bg-soft-gray {
+    background-color: rgba(219, 219, 219, 0.74);
+  }
+  
+  .bg-gray {
+    background-color: rgb(23, 25, 37);
+
+  }
+  
+  h6 {
+    letter-spacing: 5px;
+  }
+
+
+@media only screen and (max-width: 600px) {
+    .display-1 {
+font-size: 5rem;
+    }
+}
+
+
+
+  
+  .rotate-icon {
+      transform: rotate(45deg);
+  }
+  
+ 
+  .round-5 i {
+    margin: auto;
+  }
+  
+  /* for count down */
+  
+  general styling
+  :root {
+    --smaller: .75;
+  }
+  
+  body {
+    align-items: center;
+    
+    font-family: -apple-system, 
+      BlinkMacSystemFont, 
+      "Segoe UI", 
+      Roboto, 
+      Oxygen-Sans, 
+      Ubuntu, 
+      Cantarell, 
+      "Helvetica Neue", 
+      sans-serif;
+  }
+   
+  
+  .contact-bg {
+    background: url(images/footer-bg.jpg);
+  }
+  
+  
+  
+  .contact-section {
+  letter-spacing: normal;
+  }
+   
+
+
+  /* countdown section */
+
+/* general styling */
+:root {
+  --smaller: .75;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  align-items: center;
+  
+
+  font-family: -apple-system, 
+    BlinkMacSystemFont, 
+    "Segoe UI", 
+    Roboto, 
+    Oxygen-Sans, 
+    Ubuntu, 
+    Cantarell, 
+    "Helvetica Neue", 
+    sans-serif;
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .display-1 {
+font-size: 5rem;
+  }
+}
+ 
+
+li span {
+  
+  font-size: 4.5rem;
+}
+
+.emoji {
+  display: none;
+  padding: 1rem;
+}
+
+.emoji span {
+  font-size: 4rem;
+  padding: 0 .5rem;
+}
